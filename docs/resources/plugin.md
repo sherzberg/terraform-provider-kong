@@ -15,6 +15,7 @@ resource "kong_plugin" "rate_limit" {
 		"hour" : 1000
 	}
 EOT
+}
 ```
 To apply a plugin to a consumer use the `consumer_id` property, for example:
 
